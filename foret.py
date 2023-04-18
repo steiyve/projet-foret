@@ -4,7 +4,7 @@
 
 import pygame
 import sys
-import turlte
+import turtle
 
 #initialization des chose utile
 pygame.init()
