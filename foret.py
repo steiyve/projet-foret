@@ -4,10 +4,12 @@
 
 import pygame
 import sys
+import turlte
 
 #initialization des chose utile
 pygame.init()
 image_path = ""
+t = turtle.Turtle()
 
 #les fonctions
 def demande():
@@ -40,6 +42,10 @@ while running:
         #de la logique
         if event.type == pygame.QUIT:
             running = False
+
+for i in range(18):
+    t.fd(33)
+    t.left(180-(360/19))
 
 #on quite
 print("les source pour les image sont dans source.txt")
